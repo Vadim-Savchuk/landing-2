@@ -1,0 +1,188 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .container nav {
+    display: none;
+  }
+  .container .adaptive-menu {
+    display: block;
+  }
+  .container .adaptive-menu .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .adaptive-menu .center .center-two {
+    margin-right: 8%;
+  }
+  .container .adaptive-menu .center .center-two .menu-right {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    background: transparent;
+  }
+  .container .swiper-container .intro .left {
+    padding: 20px 0px;
+  }
+  .container .section-three .bottom li {
+    margin: 0px;
+  }
+  .container .section-five .top form::before {
+    left: 18%;
+  }
+  .container .section-one .bottom .left {
+    height: auto;
+  }
+  .container .section-two img,
+.container .section-three img,
+.container .section-four img {
+    width: 100%;
+  }
+  .container .swiper-container .swiper-pagination-bullet {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .container h1 {
+    font-size: 20px;
+  }
+  .container .swiper-container .swiper-pagination-bullet {
+    width: 50px;
+  }
+  .container .section-five .top form::before {
+    left: 7%;
+  }
+  .container .top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .container .adaptive-menu {
+    padding: 15px 10px 35px;
+  }
+  .container .adaptive-menu .menu-right form:hover > input {
+    width: 150px;
+  }
+  .container .adaptive-menu .center .center-two {
+    margin-right: 17%;
+  }
+  .container h1 {
+    line-height: 24px;
+  }
+  .container .swiper-container .intro .left p {
+    font-size: smaller;
+  }
+  .container .swiper-container .btn {
+    margin-bottom: 20px;
+  }
+  .container .section-one .bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .section-one .bottom a {
+    margin-bottom: 40px;
+  }
+  .container .section-two .bottom,
+.container .section-three .bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .section-five .top form input {
+    width: 100%;
+  }
+  .container .section-five .bottom {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .container .adaptive-menu .center .center-two {
+    margin: 10px 7% 0px auto;
+  }
+  .container .adaptive-menu .menubox {
+    width: 200px;
+  }
+  .container .adaptive-menu .menu-btn {
+    top: 24%;
+  }
+  .container .adaptive-menu .center {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .container .swiper-container .intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+  .container .section-four .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .section-five .bottom {
+    height: auto;
+  }
+  .container .section-five .bottom span {
+    border-radius: 0px;
+    padding: 10px;
+  }
+  .container .section-five .bottom span button {
+    border: 0px;
+    border: 1px solid black;
+    border-radius: 0px;
+  }
+  .container .section-five .bottom p {
+    margin: 10px 0px;
+  }
+  .container .section-five .bottom {
+    padding: 5px;
+  }
+  .container .section-three .bottom li h4 {
+    margin-bottom: 15px;
+  }
+  .container .top {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
